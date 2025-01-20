@@ -1,14 +1,14 @@
 https://github.com/sixgpt/miner
 
-'''shell
+```shell
 docker-compose down
-'''
+```
 update your miner
 
-'''shell
+```shell
 run docker pull sixgpt/miner:latest
-'''
+```
 
-'''shell
+```shell
 docker-compose up -d && sudo docker-compose logs -f
-'''
+```
