@@ -1,3 +1,5 @@
+Follow the link
+
 https://github.com/sixgpt/miner
 
 ```shell
