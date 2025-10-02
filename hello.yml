@@ -1,0 +1,14 @@
+name: Hello World
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Say hi
+        run: echo "✅ CI is alive on $GITHUB_REPOSITORY (commit $GITHUB_SHA)"
